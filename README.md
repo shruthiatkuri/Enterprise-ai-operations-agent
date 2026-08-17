@@ -42,7 +42,7 @@ The backend remains the source of truth for identity, permissions, database reco
 
 ## Key Capabilities
 
-### 🔐 Authentication and Security
+###  Authentication and Security
 
 * JWT-based authentication
 * Password hashing
@@ -63,7 +63,7 @@ The platform supports three enterprise roles:
 
 Authorization decisions are performed by backend code rather than relying on the LLM to decide whether an operation is permitted.
 
-### 🎫 Enterprise Ticket Operations
+###  Enterprise Ticket Operations
 
 The agent supports natural-language ticket operations including:
 
@@ -110,7 +110,7 @@ new_status: in_progress
 
 This provides traceability for enterprise operations.
 
-### 🤖 AI Agent and Tool Calling
+###  AI Agent and Tool Calling
 
 The system uses **Ollama with Llama 3.2** to interpret natural-language requests and select appropriate tools.
 
@@ -134,7 +134,7 @@ Backend tool execution
 
 The LLM does not directly modify the database or bypass authorization.
 
-### 📊 CSV Business Analysis
+###  CSV Business Analysis
 
 Users can upload CSV reports through the Streamlit interface.
 
@@ -174,7 +174,7 @@ Analysis result
 Streamlit
 ```
 
-### 📈 Report Comparison
+###  Report Comparison
 
 The platform also supports comparing two uploaded CSV business reports.
 
@@ -186,7 +186,7 @@ Compare these two sales reports and explain the differences.
 
 The agent can invoke the report-comparison tool using the stored file paths.
 
-### 📁 User-Isolated File Storage
+###  User-Isolated File Storage
 
 Uploaded CSV files are stored under user-specific directories rather than in a shared upload location.
 
